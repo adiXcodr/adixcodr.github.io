@@ -10,18 +10,18 @@ function Navigation() {
 
   return (
     <>
-      <Navbar variant="dark" expand="lg" fixed="top" className="nvabar-custon">
-        <a href="/" className="navbar_logo_container">
+      <Navbar variant="dark" expand="lg" fixed="top" className="nvabar-custon" style={{paddingLeft:"2%", paddingRight:"2%"}}>
+        <a href="/" className="navbar_logo_container" style={{textDecoration:"none"}}>
           <PortfolioLogo className="navbar_logo" />
-          <span>Pranjal Jain</span>
+          <span>Adittya Dey</span>
         </a>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto"></Nav>
           <Nav className="navbar-right">
-            <Nav.Link href="http://blog.pranjaljain.me">
+            {/* <Nav.Link href="http://blog.pranjaljain.me">
               <Button className="moving-gradient">Blogs</Button>
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link>
               <Button
                 variant="light"
@@ -37,7 +37,7 @@ function Navigation() {
               </Button>
               <Button
                 variant="light"
-                href="https://github.com/pranjaljain0/pranjaljain0/raw/master/Pranjal_Jain_CV.pdf"
+                href="https://github.com/adiXcodr/adixcodr.github.io/raw/master/Adittya_Dey_CV.pdf"
                 style={{
                   borderRadius: "0 4px 4px 0",
                 }}

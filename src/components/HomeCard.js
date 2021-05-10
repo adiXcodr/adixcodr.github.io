@@ -26,7 +26,7 @@ function HomeCard({ HomeCards }) {
 
   return (
     <>
-      <Col className="ColStyle" xs={6} md={4}>
+      <Col className="ColStyle" xs={6} md={4} style={{zIndex:1000}}>
         <div className="innerCol">
           <span onClick={() => setLgShow(true)} className="projectLink">
             <div

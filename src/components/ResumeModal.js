@@ -15,7 +15,7 @@ function ResumeModal({ showResumeModal, closeModal }) {
       <Modal.Body>
         <iframe
           title="Resume"
-          src="https://github.com/adiXcodr/adixcodr.github.io/raw/master/Adittya_Dey_CV.pdf#toolbar=0"
+          src="https://github.com/adiXcodr/adixcodr.github.io/blob/master/src/Downloadables/Resume.pdf#toolbar=0"
           width="100%"
           height="700px"
           frameborder="0"

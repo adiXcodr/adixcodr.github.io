@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
-  "homepage": "https://github.com/adiXcodr/adixcodr.github.io.git",
+  "homepage": "./",
   "dependencies": {
     "@loadable/component": "^5.15.0",
     "@testing-library/jest-dom": "^5.12.0",

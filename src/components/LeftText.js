@@ -11,7 +11,7 @@ function LeftText() {
         <p className="animated_text">
           <Typed
             strings={[
-              "Full-Stack Developer.",
+              "Developer.",
               "CSE Undergrad.",
               "Leader.",
               "Musician.",

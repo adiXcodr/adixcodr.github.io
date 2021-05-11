@@ -5,48 +5,96 @@
       "value": [
         {
           "id": 1,
-          "title": "Integrated Autonomous guided wheelchair",
-          "projectRoute": "/project/1",
-          "badgeTitle": ["Integerated project"],
+          "title": "Quick Notes",
+          "projectRoute": "https://github.com/adiXcodr/QuickNotes",
+          "badgeTitle": [
+            "Mobile",
+            "OCR"
+          ],
           "initialColor": "#56CCF2",
           "finalColor": "#2F80ED",
-          "language": "C++"
+          "language": "React Native",
+          "description": " A React Native app to store notes quickly on your phone"
         },
         {
           "id": 2,
-          "title": "Multi terrain vehicle",
-          "projectRoute": "#",
-          "badgeTitle": ["Integerated project"],
+          "title": "IEEE TU",
+          "projectRoute": "http://www.tezu.ernet.in/ieee",
+          "badgeTitle": [
+            "IEEE",
+            "Web"
+          ],
           "initialColor": "#373B44",
           "finalColor": "#4286f4",
-          "language": "Java"
+          "language": "MERN",
+          "description": "A Full-Stack MERN Website. "
         },
         {
           "id": 3,
-          "title": "KOSK",
-          "projectRoute": "#",
-          "badgeTitle": ["Mobile", "Web"],
+          "title": "Meridio Chain",
+          "projectRoute": "https://github.com/subhasishgosw5/Meridio-Chain",
+          "badgeTitle": [
+            "Web",
+            "Blockchain"
+          ],
           "initialColor": "#f12711",
           "finalColor": "#f5af19",
-          "language": "JavaScript"
+          "language": "React",
+          "description": "A React+Web3JS+Solidity solution for Intellectual Property."
         },
         {
           "id": 4,
-          "title": "Edudroid",
-          "projectRoute": "#",
-          "badgeTitle": ["Desktop"],
+          "title": "SafeMaps",
+          "projectRoute": "https://github.com/adiXcodr/SafeMaps",
+          "badgeTitle": [
+            "Web",
+            "Graph Theory"
+          ],
           "initialColor": "#11998e",
           "finalColor": "#38ef7d",
-          "language": "Haskell"
+          "language": "Python",
+          "description": "A Flask App for Safe Navigation in a Pandemic."
         },
         {
           "id": 5,
-          "title": "Smart Grid",
-          "projectRoute": "#",
-          "badgeTitle": ["Internet of things"],
+          "title": "Gender Paint",
+          "projectRoute": "https://github.com/adiXcodr/Gender-Paint",
+          "badgeTitle": [
+            "API",
+            "Deep Learning"
+          ],
           "initialColor": "#e1eec3",
           "finalColor": "#f05053",
-          "language": "Ruby"
+          "language": "Python",
+          "description": "An API for Gender Detection using Flask and Deep Learning."
+        },
+        {
+          "id": 6,
+          "title": "Plagiarism Checker",
+          "projectRoute": "https://gitlab.com/rahul_799/plagarism-checker",
+          "badgeTitle": [
+            "Web",
+            "Scraping",
+            "Cosine Similarity"
+          ],
+          "initialColor": "#56CCF2",
+          "finalColor": "#2F80ED",
+          "language": "Python",
+          "description": "A Flask App to check plagiarism in a text using Web Scraping."
+        },
+        {
+          "id": 7,
+          "title": "Node-OCR",
+          "projectRoute": "https://github.com/adiXcodr/node-ocr",
+          "badgeTitle": [
+            "Web",
+            "Scraping",
+            "Cosine Similarity"
+          ],
+          "initialColor": "#373B44",
+          "finalColor": "#4286f4",
+          "language": "Node.JS",
+          "description": "An API made with NodeJS, ExpressJS and Tesseract for OCR."
         }
       ],
       "route": "/projects",
@@ -58,44 +106,44 @@
       "title": "Coding",
       "value": [
         {
-          "title": "Python",
-          "level": "Advance"
+          "title": "Socket.io",
+          "level": "Beginner"
         },
         {
-          "title": "HTML",
-          "level": "Advance"
-        },
-        {
-          "title": "PHP",
-          "level": "Advance"
-        },
-        {
-          "title": "JAVA",
-          "level": "Advance"
-        },
-        {
-          "title": "C++",
-          "level": "Advance"
-        },
-        {
-          "title": "C",
-          "level": "Advance"
-        },
-        {
-          "title": "Android",
+          "title": "Firebase",
           "level": "Intermediate"
         },
         {
-          "title": "JS",
+          "title": "NodeJS + ExpressJS",
+          "level": "Advanced"
+        },
+        {
+          "title": "ReactJS",
+          "level": "Advanced"
+        },
+        {
+          "title": "React Native",
+          "level": "Advanced"
+        },
+        {
+          "title": "Python",
+          "level": "Advanced"
+        },
+        {
+          "title": "Flask API",
+          "level": "Advanced"
+        },
+        {
+          "title": "SQL",
           "level": "Intermediate"
         },
         {
           "title": "MongoDB",
-          "level": "Intermediate"
+          "level": "Advanced"
         },
         {
-          "title": "ReactJS",
-          "level": "Beginner"
+          "title": "Git",
+          "level": "Intermediate"
         }
       ],
       "route": "/languages",
@@ -107,16 +155,8 @@
       "title": "Hobbies & Interest",
       "value": [
         {
-          "title": "Solving puzzles",
-          "hobbyIcon": "FaPuzzlePiece"
-        },
-        {
-          "title": "Computing",
+          "title": "Computers",
           "hobbyIcon": "MdComputer"
-        },
-        {
-          "title": "Going to the gym",
-          "hobbyIcon": "FaDumbbell"
         },
         {
           "title": "Travelling",
@@ -127,7 +167,7 @@
           "hobbyIcon": "FaNetworkWired"
         },
         {
-          "title": "Playing guitar",
+          "title": "Playing Music",
           "hobbyIcon": "FaGuitar"
         }
       ],

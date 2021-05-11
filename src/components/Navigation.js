@@ -45,10 +45,10 @@ function Navigation() {
                 <FaDownload fill="rgba(0,0,0,0.5)" />
               </Button>
             </Nav.Link>
-            <Nav.Link href="https://github.com/pranjaljain0">
+            <Nav.Link href="https://github.com/adiXcodr" target="_blank">
               <FaGithub color="rgba(255,255,255,0.8)" size="1.5em" />
             </Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/pranjaljain0/">
+            <Nav.Link href="https://www.linkedin.com/in/adittyadey/" target="_blank">
               <FaLinkedin color="rgba(255,255,255,0.8)" size="1.5em" />
             </Nav.Link>
           </Nav>

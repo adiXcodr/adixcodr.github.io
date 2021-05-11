@@ -13,7 +13,10 @@ function ProjectList({ ProjectListVal }) {
             <span
               key={`project-list-item-${index}`}
               className="project_list_item_link"
-              onClick={() => Obj?.id && history.push(`/project/${Obj.id}`)}
+              onClick={() => {
+                const win = window.open(Obj.projectRoute, "_blank");
+                win.focus();
+              }}
             >
               <div
                 style={{
@@ -36,7 +39,8 @@ function ProjectList({ ProjectListVal }) {
                 <Badge pill variant="secondary" className="chip">
                   {Obj.language}
                 </Badge>
-                <p>{Obj.title}</p>
+                <p style={{marginTop:10,fontSize:20,fontWeight:"bold"}}>{Obj.title}</p>
+                <p>{Obj.description}</p>
               </div>
             </span>
           );

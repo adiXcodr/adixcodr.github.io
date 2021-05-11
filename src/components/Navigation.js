@@ -37,7 +37,7 @@ function Navigation() {
               </Button>
               <Button
                 variant="light"
-                href="https://github.com/adiXcodr/adixcodr.github.io/blob/master/src/Downloadables/Resume.pdf"
+                href="https://github.com/adiXcodr/adixcodr.github.io/raw/master/src/Downloadables/Resume.pdf"
                 style={{
                   borderRadius: "0 4px 4px 0",
                 }}

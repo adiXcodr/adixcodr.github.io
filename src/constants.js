@@ -1,5 +1,5 @@
-const PROJECT_ID = "static-forest-313818";
+const baseUrl = "https://adittyaportfolioserver.herokuapp.com";
 
 export {
-    PROJECT_ID
+    baseUrl
 };

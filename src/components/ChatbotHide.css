@@ -1,0 +1,13 @@
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    .rcw-widget-container{
+      position: absolute;
+      bottom: 0 !important;
+      right: 0 !important;
+      max-height: 65%;
+      max-width: 100%;
+    }
+    
+  }
+  
+  

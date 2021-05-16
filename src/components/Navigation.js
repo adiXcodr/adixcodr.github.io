@@ -1,8 +1,7 @@
 import { Button, Nav, Navbar } from "react-bootstrap";
 import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import React, { useState } from "react";
-
-import { ReactComponent as PortfolioLogo } from "../assets/Image/logo.svg";
+import ProfilePicture from "../assets/Image/pp.jpg";
 import ResumeModal from "./ResumeModal";
 
 function Navigation() {
@@ -10,9 +9,11 @@ function Navigation() {
 
   return (
     <>
-      <Navbar variant="dark" expand="lg" fixed="top" className="nvabar-custon" style={{paddingLeft:"2%", paddingRight:"2%"}}>
-        <a href="/" className="navbar_logo_container" style={{textDecoration:"none"}}>
-          <PortfolioLogo className="navbar_logo" />
+      <Navbar variant="dark" expand="lg" fixed="top" className="nvabar-custon" style={{ paddingLeft: "2%", paddingRight: "2%" }}>
+        <a href="/" className="navbar_logo_container" style={{ textDecoration: "none" }}>
+          <img src={ProfilePicture} className="navbar_logo" style={{
+            borderRadius: "50%"
+          }} />
           <span>Adittya Dey</span>
         </a>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

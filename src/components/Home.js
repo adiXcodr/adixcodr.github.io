@@ -14,6 +14,7 @@ export default function Home({ name }) {
   return (
     <div>
       <Navigation />
+      
       <Container className="innerContainer" fluid>
         <Row className="mainRow">
           <Left />

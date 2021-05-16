@@ -180,10 +180,10 @@
       "title": "Education",
       "value": [
         {
-          "title": "Avantika University",
-          "duration": "2017-2021",
-          "location_city": "Ujjain",
-          "location_state": "Madhya Pradesh",
+          "title": "Tezpur University",
+          "duration": "2018-2022",
+          "location_city": "Tezpur",
+          "location_state": "Assam",
           "location_country": "IN",
           "description": "Bachelor of Technology",
           "sec_details": "Specialization : Computer Science engineering",
@@ -191,34 +191,34 @@
           "text": "#1d1d1d"
         },
         {
-          "title": "The Sanskaar Valley School",
-          "duration": "2012 - 2016",
-          "location_city": "Bhopal",
-          "location_state": "Madhya Pradesh",
+          "title": "Kendriya Vidyalaya Maligaon",
+          "duration": "2009 - 2018",
+          "location_city": "Guwahati",
+          "location_state": "Assam",
           "location_country": "IN",
-          "description": "High school",
-          "sec_details": "ISC- 66%; ICSE- 87%",
+          "description": "Primary, Secondary, Senior-Secondary",
+          "sec_details": "X - 9.6/10; XII - 89.6%",
           "color": "#ffe54a",
           "text": "#1d1d1d"
         },
         {
-          "title": "The Scindia School",
-          "duration": "2008 - 2011",
-          "location_city": "Gwalior",
-          "location_state": "Madhya Pradesh",
+          "title": "Kendriya Vidyalaya Lamphelpat",
+          "duration": "2007 - 2009",
+          "location_city": "Imphal",
+          "location_state": "Manipur",
           "location_country": "IN",
-          "description": "High school",
+          "description": "Primary",
           "sec_details": "",
           "color": "#ffd448",
           "text": "#1d1d1d"
         },
         {
-          "title": "St. Joseph's Co-ed School ",
+          "title": "KM Little Flower",
           "duration": "2003 - 2007",
-          "location_city": "Bhopal",
-          "location_state": "Madhya Pradesh",
+          "location_city": "Bilasipara",
+          "location_state": "Assam",
           "location_country": "IN",
-          "description": "Middle school",
+          "description": "Kindergarten, Primary",
           "sec_details": "",
           "color": "#ffc446",
           "text": "#1d1d1d"
@@ -234,19 +234,15 @@
       "value": [
         {
           "title": "instagram",
-          "link": ""
+          "link": "https://www.instagram.com/adixdey/"
         },
         {
           "title": "linkedin",
-          "link": ""
+          "link": "https://www.linkedin.com/in/adittyadey/"
         },
         {
           "title": "github",
-          "link": ""
-        },
-        {
-          "title": "instagram",
-          "link": ""
+          "link": "https://github.com/adiXcodr/"
         }
       ],
       "route": "#",
@@ -258,16 +254,40 @@
       "title": "Work Experience",
       "value": [
         {
-          "title": "HUDE Labs",
-          "description": "Website Development",
+          "title": "MyWays",
+          "description": "Full-Stack Development Intern",
           "duration": "3 Months",
-          "location": "Bhopal, Madhya Pradesh 462024, IN"
+          "location": "Remote",
+          "stack": [
+            "Node.js",
+            "React",
+            "React Native",
+            "MongoDB",
+            "Express",
+            "Firebase",
+            "Socket.io"
+          ]
         },
         {
-          "title": "Emote Electric",
-          "description": "Website Development, Android and iOS App Development, Hosting Solutions, SEO and Hardware Interfacing",
-          "duration": "3 Months",
-          "location": "Coimbatore, Tamil Nadu 641032, IN"
+          "title": "Future Tech Partner",
+          "description": "Mobile App Development Intern",
+          "duration": "1 Month",
+          "location": "Remote",
+          "stack": [
+            "React Native",
+            "Firebase"
+          ]
+        },
+        {
+          "title": "Homedroid Technologies",
+          "description": "Frontend Web Development Intern",
+          "duration": "2 Months",
+          "location": "Remote",
+          "stack": [
+            "HTML",
+            "JS",
+            "CSS"
+          ]
         }
       ],
       "route": "#",

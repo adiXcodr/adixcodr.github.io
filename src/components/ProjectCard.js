@@ -5,7 +5,7 @@ function ProjectCard({ projectObj }) {
   return (
     <Col className="ColStyle" xs={6} md={4}>
       <div className="innerCol">
-        <a href={projectObj.projectRoute} className="projectLink">
+        <a href={projectObj.projectRoute} className="projectLink" target="_blank">
           <div
             style={{
               background:

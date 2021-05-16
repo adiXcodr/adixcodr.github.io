@@ -5,7 +5,6 @@ import 'react-chat-widget/lib/styles.css';
 import logo from '../assets/Image/pp.jpg';
 import { v4 as uuidv4 } from 'uuid';
 import { PROJECT_ID } from "../constants";
-import "./static-forest-313818-456e682b011d.json";
 import "./ChatbotHide.css";
 
 const ChatBot = () => {

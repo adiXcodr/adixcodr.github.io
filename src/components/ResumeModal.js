@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Modal } from "react-bootstrap";
 import { Document, Page, pdfjs } from 'react-pdf';
-import Resume from "../Downloadables/Resume.pdf"
 
 function ResumeModal({ showResumeModal, closeModal, resumeLink }) {
 

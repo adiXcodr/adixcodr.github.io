@@ -1,20 +1,19 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Navigation from "./Navigation";
-import homecards from "../data/homecards.json";
 import HomeCard from "./HomeCard";
 import Left from "./Left";
 import loadable from "@loadable/component";
+import { useSelector } from "react-redux";
 
 const HomeAbout = loadable(() => import("./HomeAbout"));
 
 export default function Home({ name }) {
-  const HomeCards = homecards.data;
-
+  const HomeCards = useSelector(state => state.users.userData);
   return (
     <div>
       <Navigation />
-      
+
       <Container className="innerContainer" fluid>
         <Row className="mainRow">
           <Left />

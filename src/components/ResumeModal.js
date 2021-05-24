@@ -3,7 +3,7 @@ import { Modal } from "react-bootstrap";
 import { Document, Page, pdfjs } from 'react-pdf';
 import Resume from "../Downloadables/Resume.pdf"
 
-function ResumeModal({ showResumeModal, closeModal }) {
+function ResumeModal({ showResumeModal, closeModal, resumeLink }) {
 
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
@@ -37,7 +37,7 @@ function ResumeModal({ showResumeModal, closeModal }) {
         ></iframe> */}
         <Document
           file={{
-            url: "https://github.com/adiXcodr/adixcodr.github.io/raw/master/src/Downloadables/Resume.pdf"
+            url: resumeLink
           }}
           onLoadSuccess={onDocumentLoadSuccess}
           onLoadError={(err) => console.log("Could not load pdf", err)}

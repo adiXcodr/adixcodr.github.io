@@ -3,6 +3,7 @@ import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import React, { useState } from "react";
 import ProfilePicture from "../assets/Image/pp.jpg";
 import ResumeModal from "./ResumeModal";
+import {baseUrl} from "../constants";
 
 function Navigation() {
   const [showResumeModal, setShowResumeModal] = useState(false);
@@ -38,7 +39,7 @@ function Navigation() {
               </Button>
               <Button
                 variant="light"
-                href="https://github.com/adiXcodr/adixcodr.github.io/raw/master/src/Downloadables/Resume.pdf"
+                href={`${baseUrl}/downloadResume`}
                 style={{
                   borderRadius: "0 4px 4px 0",
                 }}
@@ -56,6 +57,7 @@ function Navigation() {
         </Navbar.Collapse>
       </Navbar>
       <ResumeModal
+        resumeLink={`${baseUrl}/downloadResume`}
         showResumeModal={showResumeModal}
         closeModal={() => {
           setShowResumeModal(!showResumeModal);

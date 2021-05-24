@@ -18,11 +18,13 @@
     "react-loader-spinner": "^4.0.0",
     "react-particles-js": "^3.4.1",
     "react-pdf": "^5.3.0",
+    "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
     "react-typed": "^1.2.0",
     "react-typing-animation": "^1.6.2",
     "react-vertical-timeline-component": "^3.3.3",
+    "redux": "^4.1.0",
     "styled-components": "^5.3.0",
     "uuid": "^8.3.2"
   },

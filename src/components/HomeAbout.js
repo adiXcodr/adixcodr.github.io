@@ -1,10 +1,11 @@
 import React from "react";
-import Home_data from "../data/home_data.json";
+import { useSelector } from "react-redux";
 
 function HomeAbout() {
+  const HomeCards = useSelector(state => state.users.userData);
   return (
     <div>
-      <p>{Home_data.data.about}</p>
+      <p>{HomeCards[0].about}</p>
     </div>
   );
 }

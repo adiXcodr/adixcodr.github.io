@@ -1,10 +1,7 @@
 import React from "react";
 import { Badge } from "react-bootstrap";
-import { useHistory } from "react-router-dom";
 
 function ProjectList({ ProjectListVal }) {
-  const history = useHistory();
-
   return (
     <div>
       {ProjectListVal &&
